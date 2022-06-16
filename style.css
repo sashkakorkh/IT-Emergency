@@ -1,0 +1,142 @@
+body {
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-size: 16px;
+    min-width: 1200px;
+    background-color: #ffffff
+}
+
+img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.main {
+    background-image:url(../images/bg_1.png);
+    background-position: 50% 50%;
+    padding: 60px 0;
+    background-repeat: no-repeat;
+    z
+}
+
+.container {
+    max-width: 1180px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.title {
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 37px;
+    text-align: center;
+    color: #0000EC;
+    margin-bottom: 30px;
+}
+
+.info {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
+    color: #000000;
+    margin-bottom: 40px;
+}
+
+.items {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.item {
+    width: 350px;
+    text-align: center;
+}
+
+.item-img {
+    height: 160px;
+    width: auto;
+    margin: 0 auto 15px;
+}
+
+.item-title {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+    color: #000000;
+}
+
+.item-info {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    color: #000000;
+}
+
+.flex  {
+    display: flex;
+}  
+    
+.ai {
+    align-items: center;
+}
+
+.sb {
+    justify-content: space-between;
+}
+
+
+
+.header {
+    background-color: #0000EC;
+    padding: 10px 0; 
+}
+
+.big-logo {
+    width: 355px;
+}
+
+.small-logo {
+    width: 85px;
+}
+
+a {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+
+nav {
+    display: inline-block;
+    margin: 0 60px 0 auto;
+}
+
+nav li:not(:last-child) {
+    margin-right: 60px;
+}
+
+.footer {
+    background-color: #F3FE00 ;
+    padding: 10px 0;
+}
+
+.footer p {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    color: #0000EC;
+    text-align: right;
+}
+
+.footer p:not(:last-child) {
+    margin-bottom: 20px;
+  }
+  
+
+.footer img {
+    width: 117.58px;
+    height: 117.58px;
+}
